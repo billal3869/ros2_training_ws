@@ -24,8 +24,5 @@ def main(args=None):
     rclpy.shutdown()  # Arrêter le client ROS 2
 
 
-
-
-if __import__ == '__main__':
-    main()    # Initialiser le client ROS 2
-    
+   if __name__ == '__main__':
+        main()
